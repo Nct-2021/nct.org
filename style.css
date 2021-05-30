@@ -1,50 +1,73 @@
-.bg-img {
-  /* The image used */
-  background-image: url("PicsArt_05-30-04.38.45.jpg");
-
- ;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  weight:500px;
-
-  /* Needed to position the navbar */
-  position: relative;
-}
-
-/* Position the navbar container inside the image */
-.container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
-
-/* The navbar */
+/* Add a black background color to the top navigation */
 .topnav {
-  overflow: hidden;
   background-color: #333;
-  
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
 }
 
-/* Navbar links */
+/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
+/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-.go-vai
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.bg-img
 {
+    background-image: url("PicsArt_05-31-12.21.13.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    weight:300;
+    height: 300;
+    
+}
+.ra-va{
     text-align: center;
+    text-decoration-style: bold;
+}
+.wow-r{
+    text-align: center;
+   color: black;
+   overflow: hidden;
+   padding: 15px 15px;
+   margin: 0px;
+   background-color: #2B1B17;
+}
+.wow-r a{
     text-decoration: none;
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-size: 16;
+    padding: 14px 16px;
+    float: left;
+
+}
+.wow-r a:hover{
+    background-color: #ddd;
+  color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 18;
+    background-size: 15px;
+    text-align: center;
+    
 }
