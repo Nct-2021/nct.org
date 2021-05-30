@@ -1,6 +1,6 @@
 .bg-img {
   /* The image used */
-  background-image: url("raj.jpg");
+  background-image: url("PicsArt_05-30-06.06.25.jpg");
 
   min-height: 380px;
 
@@ -8,6 +8,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 2871px;
+  weight:1615px;
 
   /* Needed to position the navbar */
   position: relative;
